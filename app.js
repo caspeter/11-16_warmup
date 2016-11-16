@@ -2,10 +2,10 @@
 
 const max = 100;
 
-const submitBtn = document.getElementById('submit');
-const restartBtn = document.getElementById('restart');
-const userInputFld = document.getElementById('input');
-const feedbackDiv = document.getElementById('feedback');
+var submitBtn;
+var restartBtn;
+var userInputFld;
+var feedbackDiv;
 
 var randomNumber = generateRandomNumber();
 
@@ -58,7 +58,13 @@ function restartGame () {
 }
 
 
-document.ready(function() {
+document.addEventListener("DOMContentLoaded", function() {
+  console.log("ran");
+  submitBtn = document.getElementById('submit');
+  restartBtn = document.getElementById('restart');
+  userInputFld = document.getElementById('input');
+  feedbackDiv = document.getElementById('feedback');
+
   submitBtn.addEventListener('click', submitEvent);
   restartBtn.addEventListener('click', restartGame);
 });
