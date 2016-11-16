@@ -41,10 +41,16 @@ input {
 	top:1px;
 }
 
-#feedback{
-  margin: 5px 0; 
+.center{
+  text-align: center;
 }
 
-/*#restart{
+#feedback{
+  margin: 5px 0;
+  font-size: 60px;
+  text-align: center;
+}
+
+#restart{
   visibility: hidden;
-}*/
+}
