@@ -12,6 +12,7 @@ var randomNumber = generateRandomNumber();
 
 function generateRandomNumber () {
   let randomNum = Math.floor(Math.random() * (max+1));
+  console.log(randomNum);
   return randomNum;
 }
 
@@ -59,7 +60,6 @@ function restartGame () {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-  console.log("ran");
   submitBtn = document.getElementById('submit');
   restartBtn = document.getElementById('restart');
   userInputFld = document.getElementById('input');
