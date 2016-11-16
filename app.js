@@ -23,7 +23,7 @@ function grabUserGuess () {
 
 function compareGuess (userGuess) {
   if (userGuess < randomNumber) {
-    return 'Too low';
+    return 'Too low!';
   } else if (userGuess > randomNumber) {
     return 'Too high!';
   } else {
