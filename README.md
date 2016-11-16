@@ -1,4 +1,4 @@
-Build a website (html & js) that accepts user input.
+Build a website (html, js & css) that accepts user input.
 
 The program should generate a random number between 1 & 100 in memory.
 
